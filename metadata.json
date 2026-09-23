@@ -1,0 +1,6 @@
+{
+  "name": "Typho3D - 3D Typhoid Visualizer",
+  "description": "Interactive 3D slides and anatomical simulations defining Typhoid fever, Salmonella Typhi infection mechanisms, and symptoms in Gujarati & English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
