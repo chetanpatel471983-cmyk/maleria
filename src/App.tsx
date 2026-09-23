@@ -38,7 +38,7 @@ const PEYERS_PATCH_IMAGE = '/src/assets/images/typhoid_peyers_patch_179017952167
 const WIDAL_TEST_IMAGE = '/src/assets/images/typhoid_widal_test_1790179534313.jpg';
 
 export default function App() {
-  const [language, setLanguage] = useState<Language>('gu'); // Default to Gujarati as requested in prompt!
+  const [language, setLanguage] = useState<Language>('en'); // Default to English as requested
   const [currentSlideIndex, setCurrentSlideIndex] = useState<number>(0);
   const [selectedBacteriumPartId, setSelectedBacteriumPartId] = useState<string>('cell_wall');
   const [pathogenesisStepIndex, setPathogenesisStepIndex] = useState<number>(0);
